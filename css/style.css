@@ -1,0 +1,49 @@
+@font-face{
+    src: url(../fonts/RoxaleStoryItalic-GOwLa.otf);
+    font-family: font1;
+}
+:root{
+    scroll-behavior: smooth;
+}
+header{
+    background: url(../images/bg.jpg) no-repeat center/100% 100%;
+    min-height: 90vh;
+}
+.join-us{
+    background-color: orangered;
+}
+.process{
+    background: url(../images/process-bg.jpg) no-repeat center/100% 100%;
+    min-height: 70vh;
+
+}
+#About h1 ,#process h1,#Blog h1 ,#portoflio h1 ,.Team h1{
+   font-family: font1;
+}
+.icon1{
+    background-image: url(../images/p-bg1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon2{
+    background-image: url(../images/p-bg2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon3{
+    background-image: url(../images/p-bg3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon4{
+    background-image: url(../images/p-bg4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Contact-Us{
+    background-color: orangered;
+    min-height: 250px;
+}
+.Contact-Us{
+    background-color: orangered;
+}
